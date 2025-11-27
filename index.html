@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mundo Gamer</title>
+
+    <link rel="stylesheet" href="css/videojuegos.css">
+    <link rel="icon" href="img/gamepad.png">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+   <header class="navbar">
+    <div class="logo">🎮 Mundo Gamer</div>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="consolas.html">Consolas</a>
+        <a href="juegos.html">Juegos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>Bienvenido al Mundo Gamer</h1>
+        <p>Explora consolas, videojuegos y noticias del universo digital.</p>
+    </section>
+
+    <!-- CARDS -->
+    <section class="cards">
+        <div class="card">
+            <img src="img/ps5.jpg" alt="PS5">
+            <h3>PlayStation 5</h3>
+            <p>Poder, velocidad y experiencias inmersivas.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/xbox.jpg" alt="Xbox">
+            <h3>Xbox Series X</h3>
+            <p>Rendimiento extremo y juegos en 4K.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/switch.jpg" alt="Nintendo Switch">
+            <h3>Nintendo Switch</h3>
+            <p>Diversión híbrida para todos.</p>
+        </div>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section class="formulario" id="contacto">
+        <h2>¿Cuál es tu videojuego favorito?</h2>
+
+        <form id="formGamer">
+            <label for="nombre">Tu nombre:</label>
+            <input type="text" id="nombre">
+
+            <label for="juego">Videojuego favorito:</label>
+            <input type="text" id="juego">
+
+            <label for="descripcion">¿Por qué te gusta?</label>
+            <textarea id="descripcion"></textarea>
+
+            <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2025 Mundo Gamer · Diseñado por Luisa Cerpa</p>
+    </footer>
+
+    <script src="js/videojuegos.js"></script>
+
+</body>
+</html>

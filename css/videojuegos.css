@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    background: #0a0f24;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #0d122e;
+    border-bottom: 2px solid #00eaff;
+}
+
+.navbar a {
+    color: #00eaff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: #00ff9d;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(135deg, #001a33, #003366);
+}
+
+.hero h1 {
+    font-size: 38px;
+    color: #00eaff;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #00ff9d;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+}
+
+.card {
+    width: 280px;
+    background: #11172f;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 12px rgba(0, 255, 235, 0.2);
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card h3 {
+    text-align: center;
+    color: #00eaff;
+}
+
+.card p {
+    text-align: center;
+    color: #d1f7ff;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 20px rgba(0, 255, 157, 0.3);
+}
+
+/* FORMULARIO */
+.formulario {
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    background: #11172f;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 12px rgba(0, 255, 235, 0.2);
+}
+
+.formulario h2 {
+    color: #00eaff;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    margin-bottom: 15px;
+    background: #0d122e;
+    color: #00eaff;
+}
+
+.btn-enviar {
+    width: 100%;
+    padding: 12px;
+    background: #00ff9d;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background: #00eaff;
+    color: #000;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #0d122e;
+    border-top: 2px solid #00eaff;
+}
